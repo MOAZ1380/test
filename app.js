@@ -16,7 +16,7 @@ const app = express();
 // Image extension needs editing
 
 
-const url = "mongodb+srv://moaz:moaz@learn-mongo-db.jtmfs.mongodb.net/my_db?retryWrites=true&w=majority&appName=learn-mongo-db";
+const url = "mongodb+srv://moaz:12345678900@learn-mongo-db.jtmfs.mongodb.net/my_db?retryWrites=true&w=majority&appName=learn-mongo-db";
 mongoose.connect(url)
     .then(() => console.log("Connected to MongoDB"))
     .catch(err => console.error("Could not connect to MongoDB", err));
